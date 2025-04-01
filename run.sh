@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
-##### !!!!!!!!!!!!!!! ####
-# VERY IMPORTANT AS THIS CONTAINS rm -rf Out/*
 cd $(dirname $0)
 set -eu
 set -x
