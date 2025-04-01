@@ -1,0 +1,7 @@
+Vault/
+Out/
+
+hugo/public/
+hugo/_gen/
+hugo/.hugo_build.lock
+hugo/content/

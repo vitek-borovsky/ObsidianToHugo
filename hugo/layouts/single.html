@@ -1,0 +1,6 @@
+{{ with .Params.artist }}
+  {{ .Scratch.Set "tags" (slice .) }}
+{{ end }}
+{{ with .Params.songname }}
+  {{ .Scratch.Set "tags" (append .Scratch.Get "tags" .) }}
+{{ end }}
